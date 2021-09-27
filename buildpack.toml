@@ -2,7 +2,7 @@ api = "0.5"
 
 [buildpack]
   id = "paketo-buildpacks/python"
-  name = "Paketo Python Buildpack"
+  name = "Paketo Python Buildpack (Plotly fork)"
 
 [metadata]
   include-files = ["buildpack.toml"]
@@ -20,7 +20,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.5.1"
+    version = "0.5.1p"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv"
@@ -62,11 +62,11 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.5.1"
+    version = "0.5.1p"
 
   [[order.group]]
     id = "paketo-buildpacks/pip-install"
-    version = "0.2.0"
+    version = "0.2.0p"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
