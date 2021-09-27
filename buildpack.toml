@@ -2,11 +2,7 @@ api = "0.8"
 
 [buildpack]
   id = "paketo-buildpacks/python"
-  name = "Paketo Buildpack for Python"
-
-  [[buildpack.licenses]]
-    type = "Apache-2.0"
-    uri = "https://github.com/paketo-buildpacks/python/blob/main/LICENSE"
+  name = "Paketo Python Buildpack (Plotly fork)"
 
 [metadata]
   include-files = ["buildpack.toml"]
@@ -29,7 +25,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.20.1"
+    version = "0.20.1p"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv"
@@ -76,11 +72,11 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.20.1"
+    version = "0.20.1p"
 
   [[order.group]]
     id = "paketo-buildpacks/pip-install"
-    version = "0.6.1"
+    version = "0.6.1p"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
