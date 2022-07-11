@@ -16,11 +16,11 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "0.7.3"
+    version = "0.7.3-airgap"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.5.1"
+    version = "0.5.1-airgap"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv"
@@ -58,11 +58,11 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "0.7.3"
+    version = "0.7.3-airgap"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.5.1"
+    version = "0.5.1-airgap"
 
   [[order.group]]
     id = "paketo-buildpacks/pip-install"
@@ -130,7 +130,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "0.7.3"
+    version = "0.7.3-airgap"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
