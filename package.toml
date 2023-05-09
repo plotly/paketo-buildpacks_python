@@ -6,7 +6,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.13.0"
 
 [[dependencies]]
-  uri = "docker://quay.io/plotly/paketo-buildpacks-pip:0.20.1p"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-pip:0.20.1"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/pipenv@1.21.0"
@@ -15,7 +15,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/pipenv-install@0.6.19"
 
 [[dependencies]]
-  uri = "docker://quay.io/plotly/paketo-buildpacks-pip-install:0.6.1p"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-pip-install:0.6.1"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/python-start@0.14.15"

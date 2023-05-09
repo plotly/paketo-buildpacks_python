@@ -134,7 +134,7 @@ function buildpackage::create() {
 
   args=(
       --config "${ROOT_DIR}/package.toml"
-      --format file
+      --format image
     )
 
 

@@ -36,3 +36,9 @@ Check out the [Python Paketo Buildpack docs](https://paketo.io/docs/howto/python
 - [Paketo Bionic Full Builder](https://github.com/paketo-buildpacks/full-builder)
 - [Paketo Jammy Base Builder](https://github.com/paketo-buildpacks/builder-jammy-base)
 - [Paketo Bionic Base Builder](https://github.com/paketo-buildpacks/base-builder)
+
+## Build:
+
+```
+./scripts/package.sh --version 5.1.1 --output quay.io/plotly/paketo-python:5.1.1
+```
