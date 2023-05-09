@@ -16,7 +16,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "0.7.3"
+    version = "1.8.8"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
