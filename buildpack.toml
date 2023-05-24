@@ -26,7 +26,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.20.1-airgap"
+    version = "0.20.1"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv"
