@@ -40,5 +40,5 @@ Check out the [Python Paketo Buildpack docs](https://paketo.io/docs/howto/python
 ## Build:
 
 ```
-./scripts/package.sh --version 5.1.1 --output quay.io/plotly/paketo-python:5.1.1
+./scripts/package.sh --version 5.1.1 --output quay.io/plotly/paketo-buildpacks-python:5.1.1
 ```
