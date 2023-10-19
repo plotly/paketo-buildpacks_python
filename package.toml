@@ -3,37 +3,37 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://quay.io/plotly/paketo-buildpacks-cpython:5.1.1b6"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-cpython:5.2tb2"
 
 [[dependencies]]
-  uri = "docker://quay.io/plotly/paketo-buildpacks-pip:5.1.1b6"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-pip:5.2t"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/pipenv:0.2.1"
+  uri = "docker://gcr.io/paketo-buildpacks/pipenv:1.19.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/pipenv-install:0.2.3"
+  uri = "docker://gcr.io/paketo-buildpacks/pipenv-install:0.6.18"
 
 [[dependencies]]
-  uri = "docker://quay.io/plotly/paketo-buildpacks-pip-install:0.2.0"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-pip-install:0.3.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/python-start:0.6.2"
+  uri = "docker://gcr.io/paketo-buildpacks/python-start:0.14.14"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/miniconda:0.2.1"
+  uri = "docker://gcr.io/paketo-buildpacks/miniconda:0.8.5"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/conda-env-update:0.2.2"
+  uri = "docker://gcr.io/paketo-buildpacks/conda-env-update:0.7.12"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/procfile:4.3.1"
+  uri = "docker://gcr.io/paketo-buildpacks/procfile:5.6.4"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/environment-variables:3.2.1"
+  uri = "docker://gcr.io/paketo-buildpacks/environment-variables:4.5.3"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:2.4.1"
+  uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.6.3"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/image-labels:3.2.1"
