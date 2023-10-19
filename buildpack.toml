@@ -3,7 +3,7 @@ api = "0.8"
 [buildpack]
   id = "paketo-buildpacks/python"
   name = "Paketo Python Buildpack (Plotly fork)"
-  version = "5.1.1"
+  version = "5.2"
 
 [metadata]
   include-files = ["buildpack.toml"]
