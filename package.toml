@@ -3,7 +3,6 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-<<<<<<< HEAD
   uri = "docker://quay.io/plotly/paketo-buildpacks-cpython:5.2"
 
 [[dependencies]]
