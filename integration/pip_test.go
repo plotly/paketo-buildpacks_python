@@ -63,8 +63,9 @@ func testPip(t *testing.T, context spec.G, it spec.S) {
 				WithBuildpacks(pythonBuildpack).
 				WithPullPolicy("never").
 				WithEnv(map[string]string{
-					"BPE_SOME_VARIABLE": "some-value",
-					"BP_IMAGE_LABELS":   "some-label=some-value",
+					"BPE_SOME_VARIABLE":      "some-value",
+					"BP_IMAGE_LABELS":        "some-label=some-value",
+					"BP_LIVE_RELOAD_ENABLED": "true",
 				}).
 				Execute(name, source)
 			Expect(err).NotTo(HaveOccurred(), logs.String())
@@ -88,17 +89,18 @@ func testPip(t *testing.T, context spec.G, it spec.S) {
 			Expect(err).NotTo(HaveOccurred())
 			Expect(string(content)).To(ContainSubstring("Hello, World with pip!"))
 
-			Expect(logs).To(ContainLines(ContainSubstring("CA Certificates Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("CPython Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("Pip Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("Pip Install Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("Python Start Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("Environment Variables Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("Image Labels Buildpack")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for CA Certificates")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for CPython")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Pip")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Pip Install")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Python Start")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Procfile")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Environment Variables")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Image Labels")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Watchexec")))
 
-			Expect(image.Buildpacks[6].Key).To(Equal("paketo-buildpacks/environment-variables"))
-			Expect(image.Buildpacks[6].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "some-value"}))
+			Expect(image.Buildpacks[7].Key).To(Equal("paketo-buildpacks/environment-variables"))
+			Expect(image.Buildpacks[7].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "some-value"}))
 			Expect(image.Labels["some-label"]).To(Equal("some-value"))
 		})
 
@@ -142,12 +144,12 @@ func testPip(t *testing.T, context spec.G, it spec.S) {
 					Execute(name, filepath.Join(source, "pip"))
 				Expect(err).NotTo(HaveOccurred())
 
-				Expect(logs).To(ContainLines(ContainSubstring("CA Certificates Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("CPython Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Pip Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Pip Install Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Python Start Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for CA Certificates")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for CPython")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Pip")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Pip Install")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Python Start")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Procfile")))
 
 				container, err = docker.Container.Run.
 					WithPublish("8080").
@@ -155,7 +157,7 @@ func testPip(t *testing.T, context spec.G, it spec.S) {
 						"PORT":                 "8080",
 						"SERVICE_BINDING_ROOT": "/bindings",
 					}).
-					WithVolume(fmt.Sprintf("%s:/bindings/ca-certificates", filepath.Join(source, "bindings"))).
+					WithVolumes(fmt.Sprintf("%s:/bindings/ca-certificates", filepath.Join(source, "bindings"))).
 					Execute(image.ID)
 				Expect(err).NotTo(HaveOccurred())
 
