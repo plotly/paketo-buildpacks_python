@@ -25,15 +25,15 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.10.0"
+    version = "1.11.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.19.0"
+    version = "0.20.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv"
-    version = "1.19.0"
+    version = "1.20.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv-install"
@@ -72,15 +72,15 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.10.0"
+    version = "1.11.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.19.0"
+    version = "0.20.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pip-install"
-    version = "0.6.0"
+    version = "0.6.1"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
@@ -115,11 +115,11 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/miniconda"
-    version = "0.8.5"
+    version = "0.8.6"
 
   [[order.group]]
     id = "paketo-buildpacks/conda-env-update"
-    version = "0.7.12"
+    version = "0.7.13"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
@@ -154,11 +154,11 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.10.0"
+    version = "1.11.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.19.0"
+    version = "0.20.0"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
@@ -201,11 +201,11 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.10.0"
+    version = "1.11.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.19.0"
+    version = "0.20.0"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
@@ -248,7 +248,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.10.0"
+    version = "1.11.0"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
