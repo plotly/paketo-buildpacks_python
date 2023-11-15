@@ -3,10 +3,10 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://quay.io/plotly/paketo-buildpacks-cpython:5.2"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-cpython:5.3.0b1"
 
 [[dependencies]]
-  uri = "docker://quay.io/plotly/paketo-buildpacks-pip:5.2"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-pip:5.3.0b1"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/pipenv:1.19.0"
