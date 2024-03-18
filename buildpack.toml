@@ -22,7 +22,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "5.3"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
@@ -69,7 +69,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "5.3"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
@@ -151,7 +151,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "5.3"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
@@ -202,7 +202,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "5.3"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
@@ -249,7 +249,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "5.3"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
