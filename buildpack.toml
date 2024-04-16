@@ -38,7 +38,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
-    version = "0.14.14"
+    version = "0.14.15"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -81,7 +81,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
-    version = "0.14.14"
+    version = "0.14.15"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -120,7 +120,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
-    version = "0.14.14"
+    version = "0.14.15"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -159,7 +159,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
-    version = "0.14.14"
+    version = "0.14.15"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
@@ -218,7 +218,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
-    version = "0.14.14"
+    version = "0.14.15"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -253,7 +253,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
-    version = "0.14.14"
+    version = "0.14.15"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
