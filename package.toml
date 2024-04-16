@@ -39,7 +39,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/poetry@0.6.5"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/poetry-install@0.3.17"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-poetry-install:5.3-sp"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/poetry-run@0.4.21"
