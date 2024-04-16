@@ -9,7 +9,7 @@
   uri = "docker://quay.io/plotly/paketo-buildpacks-pip:5.3-sp"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/pipenv:1.19.0"
+  uri = "docker://gcr.io/paketo-buildpacks/pipenv:1.21.0"
 
 [[dependencies]]
   uri = "docker://quay.io/plotly/paketo-buildpacks-pipenv-install:5.3-sp"
