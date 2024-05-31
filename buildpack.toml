@@ -162,6 +162,10 @@ api = "0.8"
     version = "5.4.0"
 
   [[order.group]]
+    id = "paketo-buildpacks/python-start"
+    version = "0.14.15"
+
+  [[order.group]]
     id = "paketo-buildpacks/poetry-install"
     version = "5.4.0"
 
