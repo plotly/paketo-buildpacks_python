@@ -22,11 +22,11 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.13.0"
+    version = "5.4.0b3"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.20.1"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv"
@@ -34,7 +34,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv-install"
-    version = "0.6.19"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
@@ -69,15 +69,15 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.13.0"
+    version = "5.4.0b3"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.20.1-airgap"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pip-install"
-    version = "0.6.1"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
@@ -116,7 +116,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/conda-env-update"
-    version = "0.7.13"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
@@ -151,19 +151,19 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.13.0"
+    version = "5.4.0b3"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.20.1"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
-    version = "0.9.0"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-install"
-    version = "0.3.19"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-run"
@@ -198,19 +198,19 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.13.0"
+    version = "5.4.0b3"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.20.1"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
-    version = "0.9.0"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-install"
-    version = "0.3.19"
+    version = "5.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
@@ -245,7 +245,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.13.0"
+    version = "5.4.0b3"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
