@@ -25,9 +25,19 @@ Additionally, the following utility buildpacks are included for all application 
 
 The buildpack supports building simple Python applications or applications which
 utilize either [Conda](https://conda.io),
+[Pipenv](https://pypi.org/project/pipenv/) or [Pip](https://pip.pypa.io/) for
+managing their dependencies.
+
+
 [Pipenv](https://pypi.org/project/pipenv/),
 [Pip](https://pip.pypa.io/),
 or [Poetry](https://python-poetry.org/) for managing their dependencies.
+
+## Build:
+
+```
+./scripts/package.sh --version 5.1.1 --output quay.io/plotly/paketo-buildpacks-python:5.1.1
+```
 
 Check out the [Python Paketo Buildpack docs](https://paketo.io/docs/howto/python/) for sample usage and more information.
 
