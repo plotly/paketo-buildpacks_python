@@ -15,7 +15,7 @@
   uri = "docker://quay.io/plotly/paketo-buildpacks-pipenv-install:5.4.0"
 
 [[dependencies]]
-  uri = docker://quay.io/plotly/paketo-buildpacks-pip-install:5.4.0"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-pip-install:5.4.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/python-start:0.14.15"
