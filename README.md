@@ -1,5 +1,12 @@
 # Python Paketo Buildpack
 
+<div align="center">
+  <a href="https://dash.plotly.com/project-maintenance">
+    <img src="https://dash.plotly.com/assets/images/maintained-by-plotly.png" width="400px" alt="Maintained by Plotly">
+  </a>
+</div>
+
+
 ## `gcr.io/paketo-buildpacks/python`
 
 The Python Paketo Buildpack provides a set of collaborating buildpacks to build a Python-based application
