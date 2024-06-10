@@ -3,49 +3,49 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://quay.io/plotly/paketo-buildpacks-cpython:5.4.0b2"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-cpython:5.4.0b3"
 
 [[dependencies]]
-  uri = "docker://quay.io/plotly/paketo-buildpacks-pip:5.3-sp"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-pip:5.4.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/pipenv:1.21.0"
+  uri = "docker://quay.io/plotly/pipenv:5.4.0"
 
 [[dependencies]]
-  uri = "docker://quay.io/plotly/paketo-buildpacks-pipenv-install:5.3-sp"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-pipenv-install:5.4.0"
 
 [[dependencies]]
-  uri = "docker://quay.io/plotly/paketo-buildpacks-pip-install:5.3-sp"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-pip-install:5.4.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/python-start:0.14.15"
+  uri = "docker://quay.io/plotly/python-start:5.4.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/miniconda:0.9.0"
+  uri = "docker://quay.io/plotly/miniconda:5.4.0"
 
 [[dependencies]]
-  uri = "docker://quay.io/plotly/paketo-buildpacks-conda-env-update:5.3-sp"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-conda-env-update:5.4.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/procfile:5.6.4"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-poetry:5.4.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/environment-variables:4.5.3"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-poetry-install:5.4.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.6.3"
+  uri = "docker://quay.io/plotly/poetry-run:5.4.0"
 
 [[dependencies]]
-  uri = "docker://quay.io/plotly/paketo-buildpacks-poetry:5.3-sp"
+  uri = "docker://gcr.io/paketo-buildpacks/procfile:5.9.0"
 
 [[dependencies]]
-  uri = "docker://quay.io/plotly/paketo-buildpacks-poetry-install:5.3-sp"
+  uri = "docker://gcr.io/paketo-buildpacks/environment-variables:4.7.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/poetry-run@0.4.22"
+  uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.8.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.5.2"
+  uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.7.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/watchexec@2.8.3"
+  uri = "urn:cnb:registry:paketo-buildpacks/watchexec@3.2.0"
