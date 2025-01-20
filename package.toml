@@ -6,7 +6,7 @@
   uri = "docker://quay.io/plotly/paketo-buildpacks-cpython:5.4.0b3"
 
 [[dependencies]]
-  uri = "docker://quay.io/plotly/paketo-buildpacks-pip:5.4.0b1"
+  uri = "docker://quay.io/plotly/paketo-buildpacks-pip:5.7.0b6"
 
 [[dependencies]]
   uri = "docker://quay.io/plotly/pipenv:5.4.0"
